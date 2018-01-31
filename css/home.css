@@ -1,0 +1,19 @@
+.btn-primary{
+    color: #dee2e6;
+    background-color: rgba(0,123,255,.5);
+    border-color: #17a2b8;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
