@@ -1,5 +1,3 @@
-# help-me
-This is for HackVSIT.
+##NodeJS Live Projects
 
-Team members to share files here and develop them further.
-*Project still in work*
+Contains live node.js projects deployed on heroku
