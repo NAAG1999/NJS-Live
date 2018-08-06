@@ -50,7 +50,7 @@ app.get('/about', function(req,res){
         pageTitle: 'About Page',
         //currentYear: new Date().getFullYear()
     });
-})
+});
 
 app.get('/bad', function(req,res){
     res.send({
@@ -62,10 +62,10 @@ app.get('/bad', function(req,res){
 //     res.send("Weclome to the projects page");
 // })
 app.get('/project', function(req,res){
-    res.render('projects.hbs',{
-        pageTitle: 'Projects'
-    })
-})
+    res.render('project.hbs',{
+        pageTitle: 'Projects',
+    });
+});
 
 app.listen(port, function(){
     console.log(`Server is up on port ${port}`);
