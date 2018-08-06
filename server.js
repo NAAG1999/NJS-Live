@@ -58,6 +58,10 @@ app.get('/bad', function(req,res){
     });
 });
 
+app.get('/projects', function(req,res){
+    res.send("Weclome to the projects page");
+})
+
 
 app.listen(port, function(){
     console.log(`Server is up on port ${port}`);
