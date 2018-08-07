@@ -6,6 +6,8 @@ const port = process.env.PORT || 3000;
 //'use strict';
 var app = express();
 
+//Hey this is a comment
+
 //partials are used to re-use that  piece of info from our view files
 hbs.registerPartials(__dirname + '/views/partials')
 
