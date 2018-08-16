@@ -8,7 +8,10 @@
     </head>
     <body>
         {{> navbar}}
-        {{{body}}} <!-- this {{{body}}} is a hook to contain all the other views present in the view folder-->
+        <div class="container">
+            {{{body}}} <!-- this {{{body}}} is a hook to contain all the other views present in the view folder-->
+        </div>
+        
         <script
             src="https://code.jquery.com/jquery-1.12.4.min.js"
             integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
