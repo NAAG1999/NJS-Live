@@ -161,3 +161,7 @@ Thu Aug 16 2018 20:01:43 GMT+0530 (IST): GET /public/style.css
 Thu Aug 16 2018 20:01:45 GMT+0530 (IST): GET /
 Thu Aug 16 2018 20:01:45 GMT+0530 (IST): GET /public/style.css
 Thu Aug 16 2018 20:01:49 GMT+0530 (IST): GET /index.hbs
+Thu Aug 16 2018 20:07:33 GMT+0530 (IST): GET /
+Thu Aug 16 2018 20:07:33 GMT+0530 (IST): GET /public/style.css
+Thu Aug 16 2018 20:08:19 GMT+0530 (IST): GET /
+Thu Aug 16 2018 20:08:19 GMT+0530 (IST): GET /public/style.css
