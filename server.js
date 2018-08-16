@@ -40,8 +40,8 @@ hbs.registerHelper('screamIt', function(text){
 })
 
 app.get('/', function(req, res){
-    res.render('home.hbs', {
-        pageTitle: 'Welcome Page',
+    res.render('index.hbs', {
+        pageTitle: 'Welcome',
         //currentYear: new Date().getFullYear(),
         welcomeMessage: 'Hello User'
     });
@@ -63,11 +63,11 @@ app.get('/bad', function(req,res){
 // app.get('/projects', function(req,res){
 //     res.send("Weclome to the projects page");
 // })
-app.get('/project', function(req,res){
-    res.render('project.hbs',{
-        pageTitle: 'Projects',
-    });
-});
+// app.get('/project', function(req,res){
+//     res.render('project.hbs',{
+//         pageTitle: 'Projects',
+//     });
+// });
 
 app.listen(port, function(){
     console.log(`Server is up on port ${port}`);
