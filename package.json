@@ -12,7 +12,8 @@
   "dependencies": {
     "debug-log": "^1.0.1",
     "express": "^4.16.3",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "mongoose": "^5.2.9"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"

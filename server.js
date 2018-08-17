@@ -1,11 +1,14 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
-
+const mongoose = require('mongoose');
 const port = process.env.PORT || 3000;
+
+
 //'use strict';
 var app = express();
 
+MongoClient.connect('localhost:27017');
 //Hey this is a comment
 
 //partials are used to re-use that  piece of info from our view files
