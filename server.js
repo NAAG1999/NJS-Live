@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 //'use strict';
 var app = express();
 
-MongoClient.connect('localhost:27017');
+mongoose.connect('localhost:27017');
 //Hey this is a comment
 
 //partials are used to re-use that  piece of info from our view files
